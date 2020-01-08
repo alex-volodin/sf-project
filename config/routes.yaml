@@ -1,0 +1,7 @@
+homepage:
+    path: /
+    controller: App\Controller\PageController::homepage
+
+page:
+    path: /{slug}/
+    controller: App\Controller\PageController::page
