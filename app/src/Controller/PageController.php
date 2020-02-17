@@ -18,7 +18,7 @@ class PageController extends AbstractController
      */
     public function homepage(Request $request)
     {
-        return $this->render('page:homepage.html.twig', [
+        return $this->render('page/homepage.html.twig', [
 
         ]);
     }
@@ -31,7 +31,7 @@ class PageController extends AbstractController
      */
     public function page(Request $request, string $slug)
     {
-        return $this->render('page:page.html.twig', [
+        return $this->render('page/page.html.twig', [
 
         ]);
     }
